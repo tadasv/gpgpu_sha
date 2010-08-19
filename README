@@ -1,0 +1,8 @@
+This is a project I did for algorithms class in college. It is an implementation of SHA1 and PARSHA-256 algorithms
+on GPU. I believe that PARSHA-256 has some bugs due to byte ordering.
+
+Compilation: cd src && make
+Execution:
+	./sha1test		- SHA-1 performance test
+	./parsha256test		- PARSHA-256 performance test on GPU
+	./parsha256testemu	- PARSHA-256 performance test on CPU (emulation mode)
